@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/contacto-style.css">
+    <title>Contacto</title>
+    <div class="container"> <!--<header>-->
+        <nav class="navbar">
+            <img src="../img/logo4.jpeg" alt="logo cuadrado" class="logo">
+            <ul class="menu">
+                
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="Proyectos.html">Proyectos</a></li>
+                <li><a href="Contacto.html">Contacto</a></li>
+            </ul>
+            <a href="#" class="btn">Whatsapp</a>
+        </nav>
+    </div>
+    
+</head>
+
+
+<body>
+    <p></p>
+    <!--<a class="btn btn-primary" onclick="mostrarMensaje()">Click me</a>
+    <a class="btn btn-primary" onclick="sumar()">Sumar</a>
+    <a class="btn btn-primary" onclick="cambiarColor()">Cambiar color</a>-->
+    <p id="texto"></p>
+    <div class="formulariox">
+        <section id="contacto" class="formulario">
+            <h2 class="mn-3">Contacto</h2>
+            <p style="margin:50px -5px;">Complete el siguiente formulario para enviarme un mensaje:</p>
+
+            <form id="contacto-form">
+                <!-- Campo nombre -->
+                <label for="nombre" class="form-label">Nombre: </label><br>
+                <input type="text" id="nombre" name="nombre" class="form-control" required><br>
+
+                <!-- Campo correo -->
+                <label for="email" class="form-label">Email: </label><br>
+                <input type="email" id="email" name="email" class="form-control" required><br>
+
+                <!-- Campo asunto -->
+                <label for="asunto" class="form-label">Asunto: </label><br>
+                <input type="text" id="asunto" name="asunto" class="form-control" required><br>
+
+                <!-- Campo mensaje -->
+                <label for="mensaje" class="form-label">Mensaje: </label><br>
+                <textarea id="mensaje" name="mensaje" rows="5" cols="30" class="form-control" required></textarea><br>
+                <!-- Boton de envío-->
+                <input type="submit" class="btn btn-primary" value="Enviar">
+            </form>
+        </section>
+    </div>
+    <footer>
+
+    </footer>
+        <script src="../js/script.js"></script>
+        <script type="module" src="../js/cxn.js"></script>
+</body>
+
+</html>
+
+<!-- ctrl + shift + L selecciona todas las palabras iguales-->
